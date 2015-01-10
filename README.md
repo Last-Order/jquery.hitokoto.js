@@ -1,6 +1,6 @@
 # jquery.hitokoto.js
 
-这是一个显示Hitokoto的jquery plugin
+这是一个显示[Hitokoto](http://hitokoto.us/)的jquery plugin
 
 窝第一次写jquery plugin……肯定不大对啦……请指出！
 
