@@ -2,16 +2,12 @@
 	function loadScript(URL){
 		$("head").append('<script id="hitokoto_loader" src="' + URL + '" />');
 	}
-	function setIntervalEvent(Event,Interval){
-		setInterval(Event,Interval);
-	}
 $.hitokoto = function(selector,options){
 	var self = this;
 	var API = 'http://api.hitokoto.us/rand?encode=jsc&charset=utf-8';
 	var interval = options && options.interval || 5000;
 	this.displayHitokoto = function(Hitokoto){
 		console.log("You get a new Hitokoto:" + Hitokoto.hitokoto);
-		console.log($(selector),options);
 		var author  = Hitokoto.author;
 		var cat     = Hitokoto.cat;
 		var catname = Hitokoto.catname;
